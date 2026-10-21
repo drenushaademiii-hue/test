@@ -21,22 +21,22 @@
     <p id="result"></p>
 
     <script>
-        
-function sum() {
-    var a = Number(document.getElementById('nr1').value);
-    var b = Number(document.getElementById('nr2').value);
+        function sum() {
+            var a = Number(document.getElementById('nr1').value);
+            var b = Number(document.getElementById('nr2').value);
+            
+            var c = a + b;
+            document.getElementById('result').innerHTML = c;
 
-    var c = a + b;
-    document.getElementById('result').innerHTML = c;
-}
-
-function multiply() {
-    var a = Number(document.getElementById('nr1').value);
-    var b = Number(document.getElementById('nr2').value);
-
-    var c = a * b;
-    document.getElementById('result').innerHTML = c;
-}
+            <button type="button" onclick="sum()">+</button> }
+ 
+                <button type="button" onclick="sum()">*/button>
+            function multiplay() {
+            var a = Number(document.getElementById('nr1').value);
+            var b = Number(document.getElementById('nr2').value);
+            
+            var c = a * b;
+            document.getElementById('result').innerHTML = c;
 
                      
     </script>
