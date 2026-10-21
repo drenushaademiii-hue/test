@@ -16,7 +16,7 @@
 
     <br><br>
 
-    <button type="button" onclick="sum()">*</button>
+    <button type="button" onclick="sum()">+</button>
 
     <p id="result"></p>
 
@@ -25,9 +25,22 @@
             var a = Number(document.getElementById('nr1').value);
             var b = Number(document.getElementById('nr2').value);
             
+            var c = a + b;
+            document.getElementById('result').innerHTML = c;
+
+            <button type="button" onclick="sum()">+</button> }
+
+
+                 function sum() {
+            var a = Number(document.getElementById('nr1').value);
+            var b = Number(document.getElementById('nr2').value);
+            
             var c = a * b;
             document.getElementById('result').innerHTML = c;
-        }
+
+            <button type="button" onclick="sum()">*</button> 
+                } 
+                     
     </script>
 
 </body>
